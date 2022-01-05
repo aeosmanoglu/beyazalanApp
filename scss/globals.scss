@@ -2,7 +2,29 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+// Global Configuration
 $enable-rounded: false;
+$card-height: 100%;
+// Color Configuration
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$light: $gray-100;
+$gray: $gray-600;
+$gray-dark: $gray-800;
+$dark: $gray-900;
+$blue: #0f62fe;
+$red: #da1e28;
+$green: #24a148;
+$yellow: #f1c21b;
+$body-bg: $gray-100;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -15,6 +37,9 @@ $enable-rounded: false;
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/card";
 
 // 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";

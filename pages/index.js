@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
       <Layout title="Beyaz Alan" />
 
       <main className="container">
-        <a href="/add">Ekle</a>
+        <Link href="/add">
+          <a>Ekle</a>
+        </Link>
       </main>
     </div>
   );
